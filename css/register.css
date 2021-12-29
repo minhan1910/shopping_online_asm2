@@ -1,0 +1,14 @@
+input[type="file" i]::-webkit-file-upload-button {
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid #aaa;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  input {
+    border: 1px solid #aaa;
+    width: 100%;
+    display: block;
+    border-radius: 0.2rem;
+  }

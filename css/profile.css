@@ -1,0 +1,86 @@
+body {
+    /* background: rgb(99, 39, 120); */
+    background: rgba(42, 115, 220, 1);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    /* border-color: #BA68C8 */
+}
+
+.profile-button {
+    background: rgba(42, 115, 220, 1);
+    /* background-color: white; */
+    /* color: #fff; */
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.profile-button:hover {
+    background: rgba(42, 115, 220, 1);
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience {
+    transition: all .3s;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.add-experience a {
+    color: #000000;
+}
+
+.add-experience:hover{
+    background: rgba(42, 115, 220, 1);
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px rgba(42, 115, 220, 1);
+}
+
+.add-experience:hover a {
+    color: #fff;
+}
+
+.login{
+    transition: all .3s;
+    background-color: transparent;
+}
+
+.login input {
+    border-radius: 5px;
+    background-color: transparent;
+    vertical-align: center;
+}
+
+.login input:hover{
+    background: rgba(42, 115, 220, 1);
+    color: #fff;
+    cursor: pointer;
+    /* border: solid 1px rgba(42, 115, 220, 1); */
+}
+
+
+.labels {
+    font-size: 2.5vh;
+}

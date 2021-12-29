@@ -1,0 +1,74 @@
+
+* {
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+
+/* #eee */
+
+.navigation__bar {
+    
+    background-color: #4e0000; 
+}
+
+.navigation__bar #navbar{
+    border-radius: 5px;
+}
+
+.navigation__bar #navBar #nav a {
+    /* border: 1px solid #FFCC00; */
+    color: #ffffff;
+    border-radius: 5px;
+     background-color: #4e0000; 
+    margin-left: 5px;
+    font-weight: bold;
+    transition: all .6s;
+}
+
+.navigation__bar #navBar #nav a:hover {
+    margin-left: 5px;
+    font-size: 3.4vh;
+}
+
+/* TD */
+
+#tblDanhSachNguoiDung tr td{
+    vertical-align: middle;
+}
+
+
+/* listOrders */
+#tblOrders thead tr th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#verticalOrders tr td {
+    vertical-align: middle;
+}
+
+#verticalOrders tr td:nth-of-type(1) {
+    text-align: center;
+}
+
+#verticalOrders tr td:nth-of-type(2) {
+    text-align: center;
+}
+
+#verticalOrders tr td:nth-of-type(4) {
+    text-align: center;
+}
+
+#verticalOrders tr td:nth-of-type(5) {
+    text-align: center;
+}
+
+#verticalOrders tr td:nth-of-type(6) {
+    text-align: center;
+}
+
+#verticalOrders tr td:nth-of-type(7) {
+    text-align: center;
+}
+
